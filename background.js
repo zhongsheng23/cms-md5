@@ -4,7 +4,7 @@ function get_data(){
     chrome.tabs.getSelected(null, function(tab) {
         var re = /http.?:\/\/.*?\//;
         main_url = tab.url.match(re)
-        url = "http://www.yunsee.cn/api_finger.html?type=d12676a&token=Daybfzgt2btm19QmYYbjgJftRE67zg&id=49&level=1&url=" + main_url; 
+        url = "http://www.yunsee.cn/api_finger.html?type=&token=&id=&level=&url=" + main_url; 
         // console.log(url)
         get_data_son(url);
         // console.log(return_data)
